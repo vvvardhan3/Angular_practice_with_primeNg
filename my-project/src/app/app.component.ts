@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
+import { ToggleSwitchModule } from 'primeng/toggleswitch';
 
 @Component({
   selector: 'app-root',
-  imports: [ButtonModule],
+  imports: [ButtonModule,ToggleSwitchModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
